@@ -1,24 +1,33 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# 💰 MoneyFlow
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+**MoneyFlow** is a personal finance web application that helps users **manage their finances**, **track expenses**, **record income**, and **stay within budget**. Whether it's salary, side income, or daily spending — MoneyFlow gives you the tools to stay in control.
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
-DATABASE_URL=
-DIRECT_URL=
+## 🚀 Features
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+- 📊 Track income and expenses
+- 💵 Categorize your salary, side income, or investments
+- 🧾 Add and edit daily expenses (food,travel)
+- 📅 Monthly financial overviews
+- 🔔 Budget alerts via email *(using Inngest + Resend)*
+- 🔐 User authentication
+- 🌐 Deployed on [Vercel](https://moneyflow-project.vercel.app)
 
-GEMINI_API_KEY=
+---
 
-RESEND_API_KEY=
+## 🖼️ Preview
 
-ARCJET_KEY=
-```
+![moneyflow-preview](https://github.com/user-attachments/assets/fe2e4f3a-76f6-4557-b1e7-42a5a24ee98a)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js / Tailwind CSS
+- **Backend:**  Next.js API Routes
+- **Database:** Prisma + Supabase (Postgres database)
+- **Email & Events:** Inngest + Resend
+- **Deployment:** Vercel
+
+---
